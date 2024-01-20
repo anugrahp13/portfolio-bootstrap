@@ -90,7 +90,7 @@ section .section-title {
     transform: rotate(-45deg);
 }
 
-.header-section .header-img {
+.header-section .header-img .skills-section .skills-img{
     width: 90%;
 }
 
@@ -106,4 +106,20 @@ section .section-title {
     .portfolio-section .card .card-img-top {
         height: 100px;
     }
+}
+
+/* Skills */
+.skills-section {
+    background-color: #030303;
+}
+
+.skill-section .progress-bar {
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: var(--gray-color);
+}
+
+.skills-section .progress-bar .progress {
+    background-color: var(--primary-color);
 }
