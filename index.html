@@ -11,7 +11,7 @@
 </head>
 <body>
     <!-- Navbar Section Start -->
-    <nav class="navbar navbar-expand-lg bg-white">
+    <nav class="navbar navbar-expand-lg bg-white sticky-top" id="home">
         <div class="container">
           <a class="navbar-brand fw-bold" href="#">anugrahprastyo</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,22 +20,25 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Timeline</a>
+                <a class="nav-link" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">News</a>
+                <a class="nav-link" href="#timeline">Timeline</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#latest-news">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -44,7 +47,7 @@
     <!-- Navbar Section End -->
     
     <!-- Header  Section Start-->
-    <section class="header-section" id="header">
+    <section class="header-section" id="about">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-6">
@@ -76,11 +79,11 @@
     <!-- Header  Section End-->
 
     <!-- Portfolio Section Start -->
-    <section class="portfolio-section" id="portfolio">
+    <section class="global-section" id="portfolio">
       <div class="container">
         <p class="text-orange fw-semibold">Portfolio</p>
         <h2 class="section-title">Selected Works</h2>
-        <div class="swiper portfolio-swiper">
+        <div class="swiper global-swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="card">
@@ -228,11 +231,168 @@
       </div>
     </section>
     <!-- Skill Section End -->
+
+    <!-- Working Period Section Start -->
+    <section class="timeline-section" id="timeline">
+      <div class="container">
+        <p class="text-orange fw-semibold">Timeline</p>
+        <h2 class="section-title">Working Period</h2>
+        <div class="row py-3 border-bottom">
+          <div class="col-md-4">April, 2020 - January, 2021</div>
+          <div class="col-md-4">Head Programmer</div>
+          <div class="col-md-4">Onlenkan Studio</div>
+        </div>
+        <div class="row py-3 border-bottom">
+          <div class="col-md-4">February, 2021 - August 2022</div>
+          <div class="col-md-4">Head Programmer, CO-Founder</div>
+          <div class="col-md-4">PT. ABCDEFG</div>
+        </div>
+        <div class="row py-3 border-bottom">
+          <div class="col-md-4">September, 2022 - Today</div>
+          <div class="col-md-4">CO-Founder</div>
+          <div class="col-md-4">PT. Justice</div>
+        </div>
+      </div>
+    </section>
+    <!-- Working Period Section End -->
+
+    <!-- Latest News Section Start -->
+    <section class="global-section" id="latest-news">
+      <div class="container">
+        <p class="text-orange fw-semibold">News</p>
+        <h2 class="section-title">Latest News</h2>
+        <div class="swiper global-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="images/news-1.png" class="card-img-top rounded mb-3" alt="">
+                   <h6 class="fw-semibold">Bagaimana Membuat Portfolio Keren</h6>
+                   <p class="text-secondary-fs-7">December, 01 2021</p>
+                   <a href="#" class="text-orange">Detail News</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="images/news-2.png" class="card-img-top rounded mb-3" alt="">
+                   <h6 class="fw-semibold">Bagaimana Membuat Portfolio Keren</h6>
+                   <p class="text-secondary-fs-7">December, 01 2021</p>
+                   <a href="#" class="text-orange">Detail News</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="images/news-3.png" class="card-img-top rounded mb-3" alt="">
+                   <h6 class="fw-semibold">Bagaimana Membuat Portfolio Keren</h6>
+                   <p class="text-secondary-fs-7">December, 01 2021</p>
+                   <a href="#" class="text-orange">Detail News</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="images/news-4.png" class="card-img-top rounded mb-3" alt="">
+                   <h6 class="fw-semibold">Bagaimana Membuat Portfolio Keren</h6>
+                   <p class="text-secondary-fs-7">December, 01 2021</p>
+                   <a href="#" class="text-orange">Detail News</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="images/news-5.png" class="card-img-top rounded mb-3" alt="">
+                   <h6 class="fw-semibold">Bagaimana Membuat Portfolio Keren</h6>
+                   <p class="text-secondary-fs-7">December, 01 2021</p>
+                   <a href="#" class="text-orange">Detail News</a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="d-flex align-items-center justify-content-end gap-3 mt-3">
+            <button class="btn btn-light d-flex align-items-center justify-content-center btn-prev">
+              <i class="bx bx-left-arrow-alt fs-5"></i>
+            </button>
+            <button class="btn btn-light d-flex align-items-center justify-content-center btn-next">
+              <i class="bx bx-right-arrow-alt fs-5"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Latest News Section End -->
+
+    <!-- Contact Section Start -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md-6">
+            <p class="text-orange fw-semibold">Contact</p>
+            <h2 class="section-title mb-5">Get in Touch</h2>
+            <p class="text-secondary mb-3">Please fill out the form on this section to contact
+              with me, or Call between 9:00 a.m and 8:00 p.m. ET, Monday through Friday
+            </p>
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i class="bx bx-map-pin text-orange fs-5"></i>
+              <div class="mb-0">(+62) 812 3456 78910</div>
+            </div>
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i class="bx bx-envelope text-orange fs-5"></i>
+              <div class="mb-0">anugrahprastyo13@gmail.com</div>
+            </div>
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i class="bx bx-globe text-orange fs-5"></i>
+              <div class="mb-0"><a href="https://temusolusi.com/" target="_blank" class="text-orange">temusolusi.com</a></div>
+            </div>
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i class="bx bx-map-pin text-orange fs-5"></i>
+              <div class="mb-0">13520 H. Matali, Batu Ampar, Jakarta Timur</div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <form action="#">
+              <input type="text" name="name" id="name" placeholder="Name" class="form-control rounded-0 mb-2">
+              <input type="email" name="email" id="email" placeholder="Email" class="form-control rounded-0 mb-2">
+              <textarea name="message" id="message" cols="30" rows="3" placeholder="Message" class="form-control rounded-0 mb-2"></textarea>
+              <button class="btn btn-orange w-100 rounded-0">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="py-3">
+      <div class="container">
+        <p class="text-white fs-7 mb-0 text-center ">
+          Dibuat dengan ❤️ oleh <a href="https://www.instagram.com/anugrahp313/" target="_blank" class="text-orange">Anugrah Prastyo</a>, menggunakan <a href="https://getbootstrap.com/" target="_blank" class="text-purple">Bootstrap 5</a> 
+        </p>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Back to top Start -->
+    <div class="container">
+      <div class="d-flex align-items-end justify-content-end">
+        <a href="#home" id="totop" class="totop ms-auto fixed-bottom rounded-circle p-1">
+          <i class="bx bxs-chevron-up bx-lg text-white"></i>
+        </a>
+      </div>
+    </div>
+    <!-- Back to top End -->
+
     <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- Initialize Swiper -->
     <script>
-      var swiper = new Swiper(".portfolio-swiper", {
+      var swiper = new Swiper(".global-swiper", {
         slidesPerView: 3,
         spaceBetween: 30,
         navigation: {

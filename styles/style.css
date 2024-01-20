@@ -4,7 +4,7 @@
 /* Variables */
 :root {
     --primary-color: #FB6A27;
-    --dark-color: #0F0F0F;
+    --dark-color: #0f172a;
     --gray-color: gray;
 
     --h1-font-size: 40px;
@@ -40,6 +40,11 @@ section .section-title {
 
 .btn-orange {
     background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-orange:hover {
+    background-color: var(--dark-color);
     color: white;
 }
 
@@ -95,7 +100,7 @@ section .section-title {
 }
 
 /* Portfolio */
-.portfolio-section .card .card-img-top {
+.global-section .card .card-img-top{
     height: 200px;
     width: 100%;
     object-fit: cover;
@@ -103,14 +108,14 @@ section .section-title {
 
 /* Media Screen */
 @media screen and (max-width: 768px){
-    .portfolio-section .card .card-img-top {
+    .global-section .card .card-img-top {
         height: 100px;
     }
 }
 
 /* Skills */
-.skills-section {
-    background-color: #030303;
+.skills-section, footer {
+    background-color: var(--dark-color);
 }
 
 .skill-section .progress-bar {
@@ -122,4 +127,19 @@ section .section-title {
 
 .skills-section .progress-bar .progress {
     background-color: var(--primary-color);
+}
+
+/* Footer */
+footer .text-purple {
+    color: #4c0bce;
+}
+
+/* Totop */
+.totop {
+    bottom: 16px;
+    right: 16px;
+    height: 56px;
+    width: 56px;
+    background-color: var(--primary-color);
+    z-index: 99999;
 }
