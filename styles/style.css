@@ -89,3 +89,21 @@ section .section-title {
 .header-section .header-skill:hover i {
     transform: rotate(-45deg);
 }
+
+.header-section .header-img {
+    width: 90%;
+}
+
+/* Portfolio */
+.portfolio-section .card .card-img-top {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Media Screen */
+@media screen and (max-width: 768px){
+    .portfolio-section .card .card-img-top {
+        height: 100px;
+    }
+}
