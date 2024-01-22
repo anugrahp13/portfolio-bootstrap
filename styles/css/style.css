@@ -135,7 +135,9 @@ footer .text-purple {
 }
 
 /* Totop */
-.totop {
+#totop {
+    display: none;
+    position: fixed;
     bottom: 16px;
     right: 16px;
     height: 56px;
